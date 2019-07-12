@@ -1,7 +1,7 @@
 # Your code here
 
 def meal_choice(vegetables, carbs, protein="meat")
-  if(protein == "")
+  if(protein == "meat")
     puts "A plate of #{protein} with #{vegetables} and #{carbs}."
   else
     puts "What a nutritious meal!"
